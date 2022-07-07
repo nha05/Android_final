@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#D7E4E4">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Lớp Học"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/blues"/>
+
+    <EditText
+        android:id="@+id/edttenlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Lớp Học"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittex"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edtmalophoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Lớp Học"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:background="@drawable/custom_edittex"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_weight="4"
+            android:id="@+id/luulh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_buton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/huylh"
+            android:layout_weight="4"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:background="@drawable/custom_buton"/>
+
+    </LinearLayout>
+
+</LinearLayout>
